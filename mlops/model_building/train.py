@@ -105,7 +105,7 @@ print(classification_report(ytest, y_pred_test))
 joblib.dump(best_model, "best_churn_model.joblib")
 
 # Upload to Hugging Face
-repo_id = "<-------Hugging Face User ID-------->/churn-model"
+repo_id = "yadavgovind/churn-model"
 repo_type = "model"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
