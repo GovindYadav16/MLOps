@@ -19,7 +19,7 @@ CreditScore = st.number_input("Credit Score (customer's credit score)", min_valu
 Geography = st.selectbox("Geography (country where the customer resides)", ["France", "Germany", "Spain"])
 Age = st.number_input("Age (customer's age in years)", min_value=18, max_value=100, value=30)
 Tenure = st.number_input("Tenure (number of years the customer has been with the bank)", value=12)
-Balance = st.number_input("Account Balance (customer’s account balance)", min_value=0.0, value=10000.0)
+Balance = st.number_input("Customer Account Balance", min_value=0.0, value=10000.0)
 NumOfProducts = st.number_input("Number of Products (number of products the customer has with the bank)", min_value=1, value=1)
 HasCrCard = st.selectbox("Has Credit Card?", ["Yes", "No"])
 IsActiveMember = st.selectbox("Is Active Member?", ["Yes", "No"])
