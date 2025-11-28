@@ -1,7 +1,9 @@
 name: MLOps pipeline
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Automatically triggers on push to the main branch
 
 jobs:
 
